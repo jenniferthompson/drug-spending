@@ -18,13 +18,13 @@ you'll need an invitation - more info [here](https://github.com/Data4Democracy/r
 1. [Tidy the data](https://en.wikipedia.org/wiki/Tidy_data), using `lower_snake_case` for variable
 and file names and ISO format (YYYY-MM-DD) for dates.
 1. Submit a pull request to this repo with a file containing a data dictionary for your data source
-named `[datasource]_dictionary.md`; it'll be reviewed by our maintainers. We have a data dictionary
-template here [need to create a template], or you can look at our other dictionary files for
+named `[datasource]_dictionary.md`; it'll be reviewed by our maintainers. We have a [data dictionary
+template](data_dictionary_template.md), or you can look at our other dictionary files for
 inspiration.
 1. Once the PR is merged, become a contributor to our
 [repo at data.world](https://data.world/data4democracy/drug-spending) if you haven't already, then
-upload your final data set.
-1. Edit the info for each field in your data.world dataset with a detailed description. This will help other users *tremendously*.
+upload your final data set and label it "clean data" (click on Edit). Add a link to the data dictionary in the Description field. If you'd like to add the raw data as well (eg, XLSX files), feel free; make sure to label it "raw data." *(If you'd rather not join data.world, a maintainer can do this as well. It's a fun place, though!)*
+1. Bonus points: Edit the info for each field in your data.world dataset with a detailed description.
 1. Submit a PR to update this overview file (this can be done by contributors or maintainers).
 1. Receive our grateful thanks.
 
