@@ -17,18 +17,22 @@ you'll need an invitation - more info [here](https://github.com/Data4Democracy/r
 
 1. [Tidy the data](https://en.wikipedia.org/wiki/Tidy_data), using `lower_snake_case` for variable
 and file names and ISO format (YYYY-MM-DD) for dates.
-1. Submit a pull request to this repo with a file containing a data dictionary for your data source
-named `[datasource]_dictionary.md`; it'll be reviewed by our maintainers. We have a [data dictionary
-template](data_dictionary_template.md), or you can look at our other dictionary files for
-inspiration.
+1. Fork this repo, if you haven't already. In `/data`, add a data dictionary for your data source named `[datasource]_dictionary.md`, along with any script(s) you used to scrape, tidy, etc.
+    - We have a [data dictionary template](data_dictionary_template.md); for more specifics, check out the other data dictionaries available in this folder.
+    - Feel free to create a subfolder for your scripts if you have several files.
+    - Be specific when you name the scripts - eg, `scrape_druglist_from_genomejp.py` is better than `drugscraping.py`.
+1. Submit a pull request to this repo with your data dictionary and scripts; it'll be reviewed by our maintainers.
 1. Once the PR is merged, become a contributor to our
 [repo at data.world](https://data.world/data4democracy/drug-spending) if you haven't already, then
-upload your final data set and label it "clean data" (click on Edit). Add a link to the data dictionary in the Description field. If you'd like to add the raw data as well (eg, XLSX files), feel free; make sure to label it "raw data." *(If you'd rather not join data.world, a maintainer can do this as well. It's a fun place, though!)*
-1. Bonus points: Edit the info for each field in your data.world dataset with a detailed description.
-1. Submit a PR to update this overview file (this can be done by contributors or maintainers).
-1. Receive our grateful thanks.
+upload your final data set and label it "clean data" (click on Edit). Add a link to the data dictionary in the Description field. *(If you'd rather not join data.world, a maintainer can do this as well. It's a fun place, though!)*
+    - If you'd like to add the raw data as well (eg, XLSX files), feel free; make sure to label it "raw data."
+    - Bonus points: Edit the info for each field in your data.world dataset with a detailed description.
+1. Submit a PR to update this overview file (this can be done by you or maintainers).
+1. Receive our grateful thanks, likely including emoji.
 
 ### Overview of Currently Available Datasets
+
+All datasets are available in our [repo on data.world](https://data.world/data4democracy/drug-spending). If individual datasets can be queried, direct links are included.
 
 ---
 
@@ -68,7 +72,7 @@ Link to full data dictionary [in progress]
 
 ---
 
-#### 3. FDA-Approved Drugs (can't get DW query link to go anywhere? will check in on this later)
+#### 3. FDA-Approved Drugs
 
 ###### Formats: JSON
 ###### Original Source: [Center Watch](http://www.centerwatch.com/drug-information/fda-approved-drugs/therapeutic-areas)
@@ -99,7 +103,7 @@ I'll need Stephanie to write this one!
 
 ---
 
-#### 6. Medical Expenditure Panel Survey *(too large to query; stored on DW)*
+#### 6. Medical Expenditure Panel Survey *(too large for direct query link)*
 
 ###### Formats: zip, CSV, feather
 ###### Original Source: meps.ahrq.gov
